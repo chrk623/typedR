@@ -26,5 +26,3 @@ typedR(text = "matrix(1:4, nc=2), 2, mean)", theme = "mac",
 ```
 
 ![example1](man/gifs/example1.gif)
-# typedR
-# typedR
