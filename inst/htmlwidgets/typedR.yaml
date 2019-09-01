@@ -1,0 +1,14 @@
+dependencies:
+  - name: d3-selection
+    version: 1.0.0
+    src: "htmlwidgets/lib/d3selection-1.0.0"
+    script: d3-selection.v1.min.js
+  - name: typedjs
+    version: 2.0.9
+    src: "htmlwidgets/lib/typedjs-2.0.9"
+    script: typedjs-2.0.9.js
+  - name: utils
+    version: 0.0.1
+    src: "htmlwidgets/lib/utils"
+    script: utils.js
+    stylesheet: themes.css

@@ -1,0 +1,43 @@
+/* general styling */
+#term_panel {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /* display: inline-block; */
+  }
+  
+#term_head {
+    display: inline-block;
+}
+
+#term_body {
+    display: inline-block;
+}
+.pointer {
+    display: inline;
+}
+.code_body {
+    display: inline
+}
+.pointer {
+    font-weight: bold;
+}
+/* mac styling */
+.term_head_mac {
+    background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+    border-radius: 5px 5px 0px 0px;
+}
+.term_head_text_mac {
+    font-family: "sans-serif";
+    text-align: center;
+    padding: 0px;
+    margin: 0.5em;
+}
+.term_body_mac {
+    background: black;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    font-family: Monaco;
+    text-align: left;
+    
+}
