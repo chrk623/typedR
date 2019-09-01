@@ -7,7 +7,7 @@
 #' @description
 #' Animate string typing in a terminal like UI.
 #' @examples
-#' typedR(text = "apply(matrix(1:4, nc=2), 2, mean)", theme = "mac",
+#' typedR(text = "apply(matrix(1:4, ncol = 2), 2, mean)", theme = "mac",
 #'        ratio = 0.8, speed = 10, background_col = "lightblue")
 #' @import htmlwidgets
 #'
