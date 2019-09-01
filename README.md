@@ -21,7 +21,7 @@ devtools::install_github("chrk623/typedR")
 
 ``` r
 library(typedR)
-typedR(text = "apply(matrix(1:4, nc=2), 2, mean)", theme = "mac",
+typedR(text = "apply(matrix(1:4, ncol = 2), 2, mean)", theme = "mac",
        ratio = 0.8, speed = 10, background_col = "lightblue")
 ```
 
