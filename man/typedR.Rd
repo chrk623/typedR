@@ -20,6 +20,6 @@ typedR(text, speed = 20, theme = "mac", ratio = 0.8,
 Animate string typing in a terminal like UI.
 }
 \examples{
-typedR(text = "matrix(1:4, ncol = 2), 2, mean)",
-       speed = 10, background_col = "lightblue")
+typedR(text = "apply(matrix(1:4, nc=2), 2, mean)", theme = "mac",
+       ratio = 0.8, speed = 10, background_col = "lightblue")
 }
