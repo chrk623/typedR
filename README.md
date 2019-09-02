@@ -4,12 +4,12 @@
 # typedR
 
 [typed.js](https://github.com/mattboldt/typed.js) is a popular
-JavaScript library to generate animate string typing. This package is a
-R wrapper for it.
+JavaScript library to generate string typing animation. This package is
+a R wrapper for it.
 
 ## Installation
 
-This packages can be installed by using the `devtools` package. It is
+This package can be installed by using the `devtools` package. It is
 suggested to have the newest version of `htmlwidgets` and have a
 relatively new version of Rstudio.
 
