@@ -7,7 +7,9 @@ HTMLWidgets.widget({
     factory: function (el, width, height) {
         let panel_width = width;
         let panel_height = height;
-
+        d3.select(el)
+            .append("div")
+            .attr("id", "term_panel");
         return {
 
             renderValue: function (pass_obj) {
@@ -19,16 +21,14 @@ HTMLWidgets.widget({
 
                 let theme = pass_obj.style_args.theme;
                 let panel_background = pass_obj.style_args.panel_background;
-
-                // draw in term_panel
-                d3.select("body")
-                    .append("div")
-                    .attr("id", "term_panel")
-                    .style("height", `${panel_height}px`)
-                    .style("width", `${panel_width}px`)
-                    .style("background", panel_background);
                 // panel selection
                 let pan = d3.select("#term_panel");
+
+                // draw in term_panel
+                pan.style("height", `${panel_height}px`)
+                    .style("width", `${panel_width}px`)
+                    .style("background", panel_background);
+
                 // terminal head
                 pan.append("div")
                     .attr("class", "term_head_" + theme)
