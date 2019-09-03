@@ -5,7 +5,7 @@
 \title{Animate string typing}
 \usage{
 typedR(text, speed = 20, theme = "mac", ratio = 0.8,
-  background_col = "lightblue", width = NULL, height = NULL)
+  background_col = "lightblue", width = 640, height = 480)
 }
 \arguments{
 \item{text}{text to animate.}
