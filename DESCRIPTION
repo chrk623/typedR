@@ -1,13 +1,19 @@
 Package: typedR
 Title: Animate string typing in R.
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Charco",
            family = "Hui",
            role = c("aut", "cre"),
            email = "phui285@aucklanduni.ac.nz")
 Description: Typed.js is a JavaScript library that animates string typing, this is a R wrapper for it.
-Imports: htmlwidgets
+Imports: 
+  htmlwidgets,
+  magrittr,
+  progress
+Suggests:
+  chromote,
+  magick
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

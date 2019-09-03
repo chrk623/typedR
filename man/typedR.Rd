@@ -35,7 +35,7 @@ Additional options can be passed to typedR by using \code{options}. E.g \code{op
  \item{\code{typedR.fadeOut}:  }{Fade out instead of backspace. Default to \code{FALSE}.}
  \item{\code{typedR.fadeOutDelay}:  }{Fade out delay in milliseconds. Default to \code{500}.}
  \item{\code{typedR.loop}:  }{Loop strings. Default to \code{FALSE}.}
- \item{\code{typedR.loopCount}:  }{Times to loop string. Default to \code{Inf}.}
+ \item{\code{typedR.loopCount}:  }{Times to loop string. Default to \code{9999}.}
  \item{\code{typedR.showCursor}:  }{Show cursor. Default to \code{TRUE}.}
  \item{\code{typedR.cursorChar}:  }{Character for cursor. Default to \code{"|"}.}
 }

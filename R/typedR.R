@@ -29,12 +29,11 @@
 #' typedR(text = "apply(matrix(1:4, ncol = 2), 2, mean)", theme = "mac",
 #'        ratio = 0.8, speed = 10, background_col = "lightblue")
 #' @import htmlwidgets
-#'
 #' @export
 typedR = function(text, speed = 20, theme = "mac",
                    ratio = 0.8,
                    background_col = "lightblue",
-                   width = NULL, height = NULL
+                   width = 640, height = 480
                    # , elementId = NULL
                    ) {
   if(length(text) > 1) {
@@ -61,7 +60,9 @@ typedR = function(text, speed = 20, theme = "mac",
       theme = theme
     )
   )
-
+  options("typedR.prev" = c(pass_obj$typed_args,
+                            width = width,
+                            height = height))
   # create widget
   htmlwidgets::createWidget(
     name = 'typedR',
@@ -69,7 +70,5 @@ typedR = function(text, speed = 20, theme = "mac",
     width = width,
     height = height,
     package = 'typedR'
-    # ,
-    # elementId = elementId
   )
 }
